@@ -1,4 +1,5 @@
-# Naziv projekta
+# Sustav upravljanja gradskim prijevozom putnika
+
 
 
 ## Podaci o studentu
