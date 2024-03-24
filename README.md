@@ -30,7 +30,7 @@ Naručitelji sustava za upravljanje gradskim prijevozom putnika očekuju od soft
 
 ## Zadatak
 
-Korisnički zahtjevi za Sustav upravljanja gradskim prijevozom putnika
+[Korisnički zahtjevi za Sustav upravljanja gradskim prijevozom putnika](https://github.com/foivz/pi2024-zadace-dciberlinivanic/blob/master/Documentation/Zadatak%20-%20Gradski%20prijevoz%20(1).pdf)https://github.com/foivz/pi2024-zadace-dciberlinivanic/blob/master/Documentation/Zadatak%20-%20Gradski%20prijevoz%20(1).pdf
 
 
 ## Resursi
