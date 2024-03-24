@@ -1,1 +1,7 @@
-Ovo je pomoćna mapa za dokumente i slike koje ćete referencirati u dokumentaciji na svojim wiki stranicama. 
+![Vozni red](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/c91040dc-a5cc-486f-ad65-2d372904209e)
+![Prikupljanje podataka o broju putnika](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/55995fda-fd2b-4538-837d-c03d7032b374)
+![Prijava u sustav](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/8c824be8-5016-4e5c-86d8-ddd880eb73ac)
+![Lokacija autobusa](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/1773db75-e6b4-4db1-9cc0-fa74beb9e902)
+![Ispis izvještaja](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/97445f60-2924-4abc-a2d5-dd38df7d3dc0)
+![Definiranje voznog parka](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/adbaf199-0e8e-4bb7-9e2d-1afe4852bf34)
+![Autobusne stanice](https://github.com/foivz/pi2024-zadace-dciberlinivanic/assets/162130804/2c0aae7f-8a67-4011-927c-9c8a6d0c292b)
