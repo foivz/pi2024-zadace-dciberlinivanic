@@ -10,5 +10,7 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Models
     {
         public int BrSjedala { get; set; }
         public int BrKilometara { get; set; }
+        public int GarazniBroj { get; set; }
+
     }
 }
