@@ -65,10 +65,12 @@
     <Compile Include="Models\PodacioVozilu.cs" />
     <Compile Include="Models\TipVozila.cs" />
     <Compile Include="Models\Vozilo.cs" />
+    <Compile Include="Models\Zaposlenik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\TipVozilaRepository.cs" />
     <Compile Include="Repositories\VozilaRepository.cs" />
+    <Compile Include="Repositories\ZaposlenikRepository.cs" />
     <EmbeddedResource Include="FrmDodavanje.resx">
       <DependentUpon>FrmDodavanje.cs</DependentUpon>
     </EmbeddedResource>

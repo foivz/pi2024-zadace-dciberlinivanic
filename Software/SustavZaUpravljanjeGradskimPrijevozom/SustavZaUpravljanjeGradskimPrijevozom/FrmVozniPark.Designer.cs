@@ -47,7 +47,7 @@
             this.dgvVozila.Name = "dgvVozila";
             this.dgvVozila.RowHeadersWidth = 51;
             this.dgvVozila.RowTemplate.Height = 24;
-            this.dgvVozila.Size = new System.Drawing.Size(917, 575);
+            this.dgvVozila.Size = new System.Drawing.Size(1029, 575);
             this.dgvVozila.TabIndex = 0;
             // 
             // btnDodaj

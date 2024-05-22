@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SustavZaUpravljanjeGradskimPrijevozom.Models;
+using SustavZaUpravljanjeGradskimPrijevozom.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +21,23 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
 
         private void FrmDodavanje_Load(object sender, EventArgs e)
         {
+            var tipvozila = TipVozilaRepository.GetTipVozila();
+            cboTip.DataSource = tipvozila;
 
+            var zaposlenik = ZaposlenikRepository.GetZapsolenik();
+            cboZaposlenik.DataSource = zaposlenik;
+            cboZaposlenik.DisplayMember = "PunoIme";
+        }
+
+        private void cboTip_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var currentTip = cboTip.SelectedItem as TipVozila;
+            txtBrSjedala.Text = currentTip.BrojSjedala.ToString();    
+        }
+
+        private void btnOdustani_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -34,6 +34,7 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Repositories
             int brojKilometara = int.Parse(reader["BrojKilometara"].ToString());
             int brojSjedala = int.Parse(reader["BrojSjedala"].ToString());
             int garazniBroj = int.Parse(reader["GarazniBroj"].ToString());
+            string tipvozila = reader["TipVozila"].ToString();
             var vozilo = new Vozilo
             {
                 SerijskiBroj = serijskibroj,
@@ -41,7 +42,9 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Repositories
                 Registracija = registracija,
                 BrKilometara = brojKilometara,
                 BrSjedala = brojSjedala,
-                GarazniBroj = garazniBroj
+                GarazniBroj = garazniBroj,
+                TipVozila = tipvozila
+              
 
             };
             return vozilo;

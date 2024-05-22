@@ -11,20 +11,20 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Repositories
 {
     public class TipVozilaRepository
     {
-        public static TipVozila GetTipVozila(string Tip)
+        public static List<TipVozila> GetTipVozila()
         {
-            TipVozila tipvozila = null;
-            string sql = $"SELECT * FROM TipVozila WHERE Tip = {Tip}";
+            List<TipVozila> tipVozilas = new List<TipVozila>();
+            string sql = "SELECT * FROM TipVozila";
             DB.OpenConnection();
             var reader = DB.GetDataReader(sql);
-            if (reader.HasRows) 
+            while (reader.Read())
             {
-                reader.Read();
-                tipvozila = CreateObject(reader);
-                reader.Close();
+                TipVozila tipvozila = CreateObject(reader);
+               tipVozilas.Add(tipvozila);
             }
+            reader.Close();
             DB.CloseConnection();
-            return tipvozila;
+            return tipVozilas;
         }
         private static TipVozila CreateObject(SqlDataReader reader)
         {

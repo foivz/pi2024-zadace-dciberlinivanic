@@ -38,7 +38,8 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FrmDodavanje frmDodavanje = new FrmDodavanje();
+            frmDodavanje.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)
