@@ -49,7 +49,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(68, 49);
+            this.label8.Location = new System.Drawing.Point(68, 43);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(392, 54);
             this.label8.TabIndex = 34;

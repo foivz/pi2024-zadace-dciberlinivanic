@@ -48,24 +48,18 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(278, 234);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(72, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 20);
+            this.label1.Size = new System.Drawing.Size(120, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tip autobusa:";
             // 
             // cboTip
             // 
-            this.cboTip.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.cboTip.FormattingEnabled = true;
-            this.cboTip.Location = new System.Drawing.Point(481, 232);
+            this.cboTip.Location = new System.Drawing.Point(275, 184);
             this.cboTip.Name = "cboTip";
             this.cboTip.Size = new System.Drawing.Size(172, 24);
             this.cboTip.TabIndex = 1;
@@ -73,82 +67,61 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(278, 282);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(72, 234);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 20);
+            this.label2.Size = new System.Drawing.Size(143, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Marka autobusa:";
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(278, 327);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(72, 279);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 20);
+            this.label3.Size = new System.Drawing.Size(188, 22);
             this.label3.TabIndex = 3;
             this.label3.Text = "Registracija autobusa:";
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(278, 375);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(72, 327);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 20);
+            this.label4.Size = new System.Drawing.Size(109, 22);
             this.label4.TabIndex = 4;
             this.label4.Text = "Broj sjedala:";
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(278, 420);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(72, 372);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 20);
+            this.label5.Size = new System.Drawing.Size(134, 22);
             this.label5.TabIndex = 5;
             this.label5.Text = "Broj kilometara:";
             // 
             // txtMarka
             // 
-            this.txtMarka.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMarka.Location = new System.Drawing.Point(481, 280);
+            this.txtMarka.Location = new System.Drawing.Point(275, 232);
             this.txtMarka.Name = "txtMarka";
             this.txtMarka.Size = new System.Drawing.Size(172, 22);
             this.txtMarka.TabIndex = 8;
             // 
             // txtRegistracija
             // 
-            this.txtRegistracija.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRegistracija.Location = new System.Drawing.Point(481, 325);
+            this.txtRegistracija.Location = new System.Drawing.Point(275, 277);
             this.txtRegistracija.Name = "txtRegistracija";
             this.txtRegistracija.Size = new System.Drawing.Size(172, 22);
             this.txtRegistracija.TabIndex = 9;
             // 
             // txtBrSjedala
             // 
-            this.txtBrSjedala.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBrSjedala.Location = new System.Drawing.Point(481, 373);
+            this.txtBrSjedala.Location = new System.Drawing.Point(275, 325);
             this.txtBrSjedala.Name = "txtBrSjedala";
             this.txtBrSjedala.ReadOnly = true;
             this.txtBrSjedala.Size = new System.Drawing.Size(172, 22);
@@ -156,24 +129,18 @@
             // 
             // txtKilometri
             // 
-            this.txtKilometri.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtKilometri.Location = new System.Drawing.Point(481, 418);
+            this.txtKilometri.Location = new System.Drawing.Point(275, 370);
             this.txtKilometri.Name = "txtKilometri";
             this.txtKilometri.Size = new System.Drawing.Size(172, 22);
             this.txtKilometri.TabIndex = 11;
             // 
             // btnUnesi
             // 
-            this.btnUnesi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnUnesi.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnUnesi.BackColor = System.Drawing.Color.Tan;
             this.btnUnesi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUnesi.Location = new System.Drawing.Point(342, 541);
+            this.btnUnesi.Location = new System.Drawing.Point(115, 435);
             this.btnUnesi.Name = "btnUnesi";
-            this.btnUnesi.Size = new System.Drawing.Size(112, 51);
+            this.btnUnesi.Size = new System.Drawing.Size(113, 51);
             this.btnUnesi.TabIndex = 13;
             this.btnUnesi.Text = "Unesi";
             this.btnUnesi.UseVisualStyleBackColor = false;
@@ -181,14 +148,11 @@
             // 
             // btnOdustani
             // 
-            this.btnOdustani.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOdustani.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnOdustani.BackColor = System.Drawing.Color.Tan;
             this.btnOdustani.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOdustani.Location = new System.Drawing.Point(496, 543);
+            this.btnOdustani.Location = new System.Drawing.Point(258, 435);
             this.btnOdustani.Name = "btnOdustani";
-            this.btnOdustani.Size = new System.Drawing.Size(112, 49);
+            this.btnOdustani.Size = new System.Drawing.Size(113, 51);
             this.btnOdustani.TabIndex = 14;
             this.btnOdustani.Text = "Odustani";
             this.btnOdustani.UseVisualStyleBackColor = false;
@@ -197,17 +161,17 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(278, 181);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(72, 133);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 20);
+            this.label7.Size = new System.Drawing.Size(102, 22);
             this.label7.TabIndex = 15;
             this.label7.Text = "Zaposlenik:";
             // 
             // cboZaposlenik
             // 
             this.cboZaposlenik.FormattingEnabled = true;
-            this.cboZaposlenik.Location = new System.Drawing.Point(481, 179);
+            this.cboZaposlenik.Location = new System.Drawing.Point(275, 131);
             this.cboZaposlenik.Name = "cboZaposlenik";
             this.cboZaposlenik.Size = new System.Drawing.Size(172, 24);
             this.cboZaposlenik.TabIndex = 16;
@@ -217,7 +181,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(292, 70);
+            this.label8.Location = new System.Drawing.Point(68, 39);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(379, 54);
             this.label8.TabIndex = 17;
@@ -227,8 +191,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(975, 666);
+            this.BackColor = System.Drawing.Color.PapayaWhip;
+            this.ClientSize = new System.Drawing.Size(530, 538);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.cboZaposlenik);
             this.Controls.Add(this.label7);
@@ -244,6 +208,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cboTip);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "FrmDodavanje";
             this.Text = "Dodavanje vozila";
             this.Load += new System.EventHandler(this.FrmDodavanje_Load);

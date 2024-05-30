@@ -31,11 +31,14 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
         {
             var vozila = VozilaRepository.GetVozilos();
             dgvVozila.DataSource = vozila;
-            dgvVozila.Columns["Marka"].DisplayIndex = 0;
-            dgvVozila.Columns["Registracija"].DisplayIndex = 0;
-            dgvVozila.Columns["BrKilometara"].DisplayIndex = 0;
-            dgvVozila.Columns["BrSjedala"].DisplayIndex = 0;
             dgvVozila.Columns["GarazniBroj"].DisplayIndex = 0;
+            dgvVozila.Columns["Marka"].DisplayIndex = 1;
+            dgvVozila.Columns["Tip"].DisplayIndex = 2;
+            dgvVozila.Columns["Registracija"].DisplayIndex = 3;
+            dgvVozila.Columns["BrKilometara"].DisplayIndex = 4;
+            dgvVozila.Columns["BrSjedala"].DisplayIndex = 5;
+            dgvVozila.Columns["Korime"].DisplayIndex = 6;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
