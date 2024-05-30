@@ -1,8 +1,11 @@
-﻿using SustavZaUpravljanjeGradskimPrijevozom.Repositories;
+﻿using DBLayer;
+using SustavZaUpravljanjeGradskimPrijevozom.Models;
+using SustavZaUpravljanjeGradskimPrijevozom.Repositories;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -28,8 +31,7 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
         {
             var vozila = VozilaRepository.GetVozilos();
             dgvVozila.DataSource = vozila;
-            dgvVozila.Columns["SerijskiBroj"].DisplayIndex = 0;
-            dgvVozila.Columns["Marka"].DisplayIndex=0;
+            dgvVozila.Columns["Marka"].DisplayIndex = 0;
             dgvVozila.Columns["Registracija"].DisplayIndex = 0;
             dgvVozila.Columns["BrKilometara"].DisplayIndex = 0;
             dgvVozila.Columns["BrSjedala"].DisplayIndex = 0;
@@ -40,11 +42,58 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
         {
             FrmDodavanje frmDodavanje = new FrmDodavanje();
             frmDodavanje.ShowDialog();
+            ShowVozila();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dgvVozila_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void txtPretrazi_TextChanged(object sender, EventArgs e)
+        {
+            string searchText = txtPretrazi.Text.Trim();
+
+            if (!string.IsNullOrWhiteSpace(searchText))
+            {
+                var vozila = VozilaRepository.PretraziVozila(searchText);
+                dgvVozila.DataSource = vozila;
+            }
+           else
+            {
+               ShowVozila();
+            }
+
+        }
+
+        private void btnIzbrisi_Click(object sender, EventArgs e)
+        {
+            Vozilo selectedVozilo = dgvVozila.CurrentRow.DataBoundItem as Vozilo;
+            DialogResult result = MessageBox.Show("Želite li obrisati označeno vozilo?", "Brisanje autobusa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                VozilaRepository.Brisanje(selectedVozilo.GarazniBroj);
+                MessageBox.Show("Autobus je uspješno obrisan!", "Uspješno brisanje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ShowVozila();
+            }
+        }
+        private void btnIzmjena_Click(object sender, EventArgs e)
+        {
+            Vozilo selectedVozilo = dgvVozila.CurrentRow.DataBoundItem as Vozilo;
+
+            FrmAžuriranje frmažuriranje = new FrmAžuriranje(selectedVozilo);
+            frmažuriranje.ShowDialog();
+            ShowVozila();
         }
     }
 }

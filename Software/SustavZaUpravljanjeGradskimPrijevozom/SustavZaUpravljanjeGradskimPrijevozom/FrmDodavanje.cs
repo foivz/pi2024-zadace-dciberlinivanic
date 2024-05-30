@@ -23,10 +23,11 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
         {
             var tipvozila = TipVozilaRepository.GetTipVozila();
             cboTip.DataSource = tipvozila;
+            
 
             var zaposlenik = ZaposlenikRepository.GetZapsolenik();
             cboZaposlenik.DataSource = zaposlenik;
-            cboZaposlenik.DisplayMember = "PunoIme";
+            cboZaposlenik.DisplayMember = "Korime";
         }
 
         private void cboTip_SelectedIndexChanged(object sender, EventArgs e)
@@ -38,6 +39,12 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
         private void btnOdustani_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnUnesi_Click(object sender, EventArgs e)
+        {
+           VozilaRepository.Unos(txtMarka.Text, txtRegistracija.Text, txtKilometri.Text, txtBrSjedala.Text, cboTip.SelectedItem.ToString(), cboZaposlenik.SelectedValue.ToString());
+           Close();
         }
     }
 }

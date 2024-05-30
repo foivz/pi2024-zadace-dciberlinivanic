@@ -34,19 +34,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtMarka = new System.Windows.Forms.TextBox();
             this.txtRegistracija = new System.Windows.Forms.TextBox();
             this.txtBrSjedala = new System.Windows.Forms.TextBox();
             this.txtKilometri = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.btnUnesi = new System.Windows.Forms.Button();
             this.btnOdustani = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label7 = new System.Windows.Forms.Label();
             this.cboZaposlenik = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -126,19 +123,6 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Broj kilometara:";
             // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(278, 458);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 20);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Garažni broj:";
-            // 
             // txtMarka
             // 
             this.txtMarka.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -180,16 +164,6 @@
             this.txtKilometri.Size = new System.Drawing.Size(172, 22);
             this.txtKilometri.TabIndex = 11;
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown1.Location = new System.Drawing.Point(481, 457);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(172, 22);
-            this.numericUpDown1.TabIndex = 12;
-            // 
             // btnUnesi
             // 
             this.btnUnesi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -203,6 +177,7 @@
             this.btnUnesi.TabIndex = 13;
             this.btnUnesi.Text = "Unesi";
             this.btnUnesi.UseVisualStyleBackColor = false;
+            this.btnUnesi.Click += new System.EventHandler(this.btnUnesi_Click);
             // 
             // btnOdustani
             // 
@@ -259,12 +234,10 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnOdustani);
             this.Controls.Add(this.btnUnesi);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.txtKilometri);
             this.Controls.Add(this.txtBrSjedala);
             this.Controls.Add(this.txtRegistracija);
             this.Controls.Add(this.txtMarka);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -274,7 +247,6 @@
             this.Name = "FrmDodavanje";
             this.Text = "Dodavanje vozila";
             this.Load += new System.EventHandler(this.FrmDodavanje_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,12 +260,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtMarka;
         private System.Windows.Forms.TextBox txtRegistracija;
         private System.Windows.Forms.TextBox txtBrSjedala;
         private System.Windows.Forms.TextBox txtKilometri;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Button btnUnesi;
         private System.Windows.Forms.Button btnOdustani;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;

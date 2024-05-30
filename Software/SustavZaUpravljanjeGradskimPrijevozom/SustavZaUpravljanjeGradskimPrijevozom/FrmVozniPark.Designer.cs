@@ -68,6 +68,7 @@
             this.btnIzbrisi.TabIndex = 2;
             this.btnIzbrisi.Text = "Izbriši vozilo";
             this.btnIzbrisi.UseVisualStyleBackColor = true;
+            this.btnIzbrisi.Click += new System.EventHandler(this.btnIzbrisi_Click);
             // 
             // btnIzmjena
             // 
@@ -77,6 +78,7 @@
             this.btnIzmjena.TabIndex = 3;
             this.btnIzmjena.Text = "Izmijeni podatke";
             this.btnIzmjena.UseVisualStyleBackColor = true;
+            this.btnIzmjena.Click += new System.EventHandler(this.btnIzmjena_Click);
             // 
             // label1
             // 
@@ -94,6 +96,7 @@
             this.txtPretrazi.Name = "txtPretrazi";
             this.txtPretrazi.Size = new System.Drawing.Size(463, 22);
             this.txtPretrazi.TabIndex = 5;
+            this.txtPretrazi.TextChanged += new System.EventHandler(this.txtPretrazi_TextChanged);
             // 
             // FrmVozniPark
             // 

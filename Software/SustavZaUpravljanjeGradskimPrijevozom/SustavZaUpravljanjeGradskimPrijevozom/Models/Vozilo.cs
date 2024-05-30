@@ -12,7 +12,9 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Models
         public int BrKilometara { get; set; }
         public int GarazniBroj { get; set; }
 
-        public string TipVozila { get; set; }
+        public string Tip { get; set; }
+
+        public string Korime {  get; set; }
 
     }
 }

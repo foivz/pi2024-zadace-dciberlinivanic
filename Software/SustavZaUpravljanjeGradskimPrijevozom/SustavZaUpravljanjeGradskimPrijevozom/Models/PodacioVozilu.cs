@@ -8,7 +8,6 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Models
 {
     public abstract class PodacioVozilu
     {
-        public int SerijskiBroj { get; set; }
         public string Marka { get; set; }
         public string Registracija { get; set; }
         public override string ToString()
