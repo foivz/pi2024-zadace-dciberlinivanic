@@ -20,7 +20,7 @@ namespace SustavZaUpravljanjeGradskimPrijevozom.Models
         }
         public override string ToString()
         {
-            return Ime;
+            return Korime;
         }
     }
 }

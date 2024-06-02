@@ -48,6 +48,7 @@
             this.dgvVozila.RowTemplate.Height = 24;
             this.dgvVozila.Size = new System.Drawing.Size(1004, 407);
             this.dgvVozila.TabIndex = 0;
+            this.dgvVozila.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVozila_CellContentClick_1);
             // 
             // btnDodaj
             // 

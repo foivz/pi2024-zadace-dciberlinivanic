@@ -31,6 +31,15 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
         {
             var vozila = VozilaRepository.GetVozilos();
             dgvVozila.DataSource = vozila;
+
+            dgvVozila.Columns["GarazniBroj"].HeaderText = "Garažni Broj";
+            dgvVozila.Columns["Marka"].HeaderText = "Marka";
+            dgvVozila.Columns["Tip"].HeaderText = "Tip Vozila";
+            dgvVozila.Columns["Registracija"].HeaderText = "Registracija";
+            dgvVozila.Columns["BrKilometara"].HeaderText = "Broj Kilometara";
+            dgvVozila.Columns["BrSjedala"].HeaderText = "Broj Sjedala";
+            dgvVozila.Columns["Korime"].HeaderText = "Zaposlenik";
+
             dgvVozila.Columns["GarazniBroj"].DisplayIndex = 0;
             dgvVozila.Columns["Marka"].DisplayIndex = 1;
             dgvVozila.Columns["Tip"].DisplayIndex = 2;
@@ -97,6 +106,11 @@ namespace SustavZaUpravljanjeGradskimPrijevozom
             FrmAžuriranje frmažuriranje = new FrmAžuriranje(selectedVozilo);
             frmažuriranje.ShowDialog();
             ShowVozila();
+        }
+
+        private void dgvVozila_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
